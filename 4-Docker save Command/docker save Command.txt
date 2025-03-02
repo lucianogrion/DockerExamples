@@ -1,0 +1,3 @@
+docker save -o savedimages.tar.gz hello-world
+docker rmi hello-world
+docker load -i savedimages.tar.gz

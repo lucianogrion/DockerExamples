@@ -1,0 +1,3 @@
+FROM example2 
+ADD new.txt /new.txt
+CMD ["nano" , "/new.txt"]
